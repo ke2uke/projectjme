@@ -1,0 +1,116 @@
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 10px;
+  font-size: 18px;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #efdfe5;
+  padding: 15px 15px;
+  width: 100%;
+  height: 40px;
+}
+nav h1, nav h2, nav ul, nav ul li {
+  display: inline;
+}
+nav ul, nav ul li, nav ul li a {
+  vertical-align: sub;
+}
+nav ul li a {
+  padding: 0 10px 0 0;
+  color: #3f7f3f;
+  text-decoration: none;
+}
+nav ul li a:visited {
+  padding: 0 10px 0 0;
+  color: #3f7f3f;
+  text-decoration: none;
+}
+nav ul li:last-child a {
+  padding: 0;
+}
+nav h1 {
+  font-size: 2em;
+}
+nav h2 {
+  font-size: 1em;
+  padding-left: 10px;
+}
+.nav-brand {
+  float:left;
+  width: 50%;
+}
+.nav-links {
+  float:left;
+  width: 50%;
+  text-align: right;
+}
+.cf:after, .cf:before {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear:both;
+}
+
+/* ---- */
+.banner {
+  width: 100%;
+  padding: 15px 15px;
+  background-color: #efdfe5;
+}
+.banner h1 {
+  text-align: center;
+  font-size: 2em;
+}
+.img-headline {
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+  height: 150px;
+}
+.img-box-holder {
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  background-color: #efdfe5;
+}
+.img-box-holder:first-child {
+  padding-bottom: 0;
+}
+.img-box {
+  display: inline-block;
+  background-color: white;
+  width: calc(20% - 10px);
+  height: 150px;
+  margin-left: 10px;
+  float: left;
+}
+.img-box:first-child {
+  margin: 0;
+}
+
+/* ----- */
+
+footer {
+  background-color: #efdfe5;
+  padding: 15px 15px 0 15px;
+  width: 100%;
+  height: 40px;
+}
+.creator {
+  width: 100%;
+  text-align: center;
+}
+small {
+  font-size: .75em;
+  letter-spacing: 1px;
+}

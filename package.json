@@ -1,0 +1,24 @@
+{
+  "name": "projectjme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ke2uke/projectjme.git"
+  },
+  "author": "Luke E Summerscales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ke2uke/projectjme/issues"
+  },
+  "homepage": "https://github.com/ke2uke/projectjme#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
